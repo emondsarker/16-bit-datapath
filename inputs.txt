@@ -1,0 +1,7 @@
+lw $zero $s5 10
+lw $zero $s7 11
+addi $zero $s8 10
+beq $s5 $s8 10
+add $s5 $s7 $s7
+addi $s5 $s5 1
+jmp 3
